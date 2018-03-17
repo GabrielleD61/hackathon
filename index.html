@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>ScriptEd Advanced Hackathon</title>
+    <title>Mentally Connected</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,10 +16,53 @@
     <!-- Your Javascript Linked Below-->
     <script src="js/script.js" defer></script> 
   </head>
+  
   <body>
-    <h1>Welcome to the ScriptEd Advanced Hackathon!!!!!!</h1>
-    <p>
-      <a href="page-one.html"> Link to page-one.html</a>
-    </p>
+    
+      <div class="mid"> 
+        <h1 id="logo"> Mentally Connected </h1>
+      </div>
+    
+        <div id="login" class="mid"> 
+          <img src="https://media.giphy.com/media/3ohryhLGwtyIGy1ibS/source.gif" class="pic">
+          <h1> Login </h1>
+            <input id="UsernameInput" placeholder="Username">
+          <br>
+            <input id="PasswordInput" placeholder="Password">
+          <br>
+            <a class="click-me" href="home.html">Sign in</a>
+        </div> 
+        <div id="divdown"> <p id="blacktext"> Or if you do not have an account, you can just write your thoughts away :)</p>
+        
+          <div id="myModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">Clear your conscience</h4>
+                </div>
+              <div class="modal-body">
+                <p> Here is your private platform to express any stresses, issues or any of your current thoughts. </p>
+                <p class="lead">
+                <input id="Thoughts">
+                </p>
+              <button id="release"> Ready to release your thoughts? </button>
+            </div>
+            <div class="modal-footer">
+              <p id="addThoughts"></p>
+              <button type="button" class="btn btn-default" data-dismiss="modal"> I'm Finished </button>
+            </div>
+            </div>
+        </div>
+      </div> 
+      <div id="top">
+        <div class="mid">
+          <div>
+           <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal"> What's on your mind?</button>
+          </div>
+        </div>
+      </div>
+      </div>
   </body>
 </html>

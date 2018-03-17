@@ -1,3 +1,89 @@
+body{
+    background-color: #1D4D7B;
+}
+
 h1 {
-  color: fuchsia;
+  color: white;
+}
+
+#bottom{
+    position: fixed;
+    left: 0;
+    right: 0;
+    height: 40%;
+    top: 50%;
+}
+
+.mid {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.clickMe {
+    -moz-appearance: button;
+    -ms-appearance: button;
+    -o-appearance: button;
+    -webkit-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    color: #525;
+    padding: 0.2em 0.4em;
+}
+
+.pic{
+    height:100px;
+    width: 100px;
+    border-radius: 100%;
+}
+
+#remind {
+    position: fixed;
+    margin-left: 25%;
+    margin-top: 0%; 
+}
+
+#phone {
+    position: fixed;
+    margin-left: 45%;
+    margin-top: 20%;
+}
+
+#social {
+    position: fixed;
+    margin-left: 65%;
+    margin-top: 0%; 
+}
+
+#home {
+    height: 50px;
+    width: 50px;
+}
+
+#blacktext {
+    color: white;
+    font-size: 16px;
+}
+
+#divdown{
+    margin:auto;
+    text-align: center;
+    padding: 40px 40px 40px 40px;  
+}
+
+#logo{
+    font: 50px;
+    
+}
+
+#logo {
+    text-align: center;
+    font-size: 100px;
+    padding: 20px 20px 60px 20px;
+    
+}
+.Hotlines, li, h2{
+    color:white;
+    
 }

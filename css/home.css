@@ -1,0 +1,15 @@
+body {
+    background: url("../images/source.gif") no-repeat;
+    background-size: cover;
+}
+.row{
+    margin: auto;
+   padding: 10px;
+}
+.icons {
+    height:150px;
+    width: 150px;
+}
+.popover-wrapper{
+    
+}
