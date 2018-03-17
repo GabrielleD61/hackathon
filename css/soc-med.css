@@ -22,8 +22,11 @@ body {
 }
 .two {
     flex-grow: 2;
-    align-content: space-around;
-    display:block;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
 }
 
 .column{
@@ -31,4 +34,8 @@ body {
     color: #212529;
     text-align: left;
     background-color: #fff;
+}
+
+body {
+    background-color: #1D4D7B;
 }

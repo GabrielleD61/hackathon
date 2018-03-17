@@ -4,7 +4,7 @@ console.log('hi');
 //  This code receieves the note written and stores it in the journal
 
 var accessNotes= window.localStorage.getItem("notes");
-var notes= JSON.parse(accessNotes);
+var notes= JSON.parse(accessNotes) || [];;
 
 
 $("#release").click(function() {
@@ -12,7 +12,6 @@ $("#release").click(function() {
     $("#addThoughts").html(thoughtsInput);
     notes.push(thoughtsInput);
     window.localStorage.setItem("notes", JSON.stringify(notes));
-    console.log(window.localStorage.getItem("notes"));
    $("#pArchivedNotes").html(notes); 
 });
 for(var x=0; x < notes.length; x++){

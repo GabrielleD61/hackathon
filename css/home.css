@@ -2,6 +2,21 @@ body {
     background: url("../images/source.gif") no-repeat;
     background-size: cover;
 }
+
+#cen {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+}
+
+.midd{
+    text-align:center;
+    color: black;
+    font-size: 14px;
+}
+
 .row{
     margin: auto;
    padding: 10px;
@@ -10,6 +25,4 @@ body {
     height:150px;
     width: 150px;
 }
-.popover-wrapper{
-    
-}
+
