@@ -84,7 +84,12 @@ h1 {
     padding: 20px 20px 60px 20px;
     
 }
-.Hotlines, li, h2{
+.Hotlines, h2{
     color:white;
+    
+}
+#pArchivedNotes{
+    color:black !important;
+    
     
 }

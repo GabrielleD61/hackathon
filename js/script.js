@@ -12,12 +12,12 @@ $("#release").click(function() {
     $("#addThoughts").html(thoughtsInput);
     notes.push(thoughtsInput);
     window.localStorage.setItem("notes", JSON.stringify(notes));
-   $("#pArchivedNotes").html(notes); 
-});
-for(var x=0; x < notes.length; x++){
+   for(var x=0; x < notes.length; x++){
     var child= notes[x];
     $("#pArchivedNotes").append("<li>" + child + " " + "</li> <br>");
-}
+} 
+});
+
 
 $(function () {
   $('[data-toggle="popover"]').popover();
